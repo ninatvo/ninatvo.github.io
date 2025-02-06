@@ -1,0 +1,80 @@
+.profile-img {
+    width: 575px;
+    height: 575px; 
+    object-fit: cover;
+    border-radius: 300px;
+    display: block;
+}
+
+.nav-icon {
+    width: 30px;  
+    height: 30px;
+    object-fit: cover; 
+    /* border-radius: 50%; */
+}
+
+.navbar .nav-link {
+    color: white !important; /* Make navbar links white */
+}
+
+.navbar .nav-link:hover {
+    color: #f8d210; /* Change color on hover (optional) */
+}
+
+.navbar .navbar-text {
+    color: white; /* Make navbar text white */
+}
+
+.custom-container {
+    background-color: #ffdcdc;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+.custom-navbar {
+    background-color: #ff9696; 
+}
+
+.carousel {
+    max-width: 70%; /* Adjust width (change to 60% or 80% as needed) */
+    margin: auto; /* Center the carousel */
+}
+
+.carousel-img {
+    width: 100%;
+    height: 400px; /* Reduce image height */
+    object-fit: cover; /* Ensures images fit without distortion */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.carousel-caption {
+    background: rgba(115, 3, 42, 0.5); /* Dark background for readability */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pink-text {
+    color: #ec275f;
+}
+
+.custom-btn {
+    background-color: #ec275f; /* Custom button color */
+    border-color: #ec275f; /* Border color */
+    color: white; /* Text color */
+}
+
+.custom-btn:hover {
+    background-color: #b10032; /* Darker shade for hover effect */
+    border-color: #b10032;
+}
+
+
+
+/* @font-face {
+    font-family: 'customFont';
+    src: url('/Users/ninatvo/Desktop/CSCI3308/lab-3-gui-development-ninatvo/submission/resources/fonts/Tempting - PERSONAL USE ONLY.ttf') format('truetype');
+}
+
+body {
+    font-family: 'customFont', sans-serif;
+}  */

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nina Vo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Users/ninatvo/Desktop/CSCI3308/lab-3-gui-development-ninatvo/submission/resources/css/styles.css"> <!-- Link to external CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar custom-navbar">
+        <div class="container-fluid d-flex justify-content-between">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            </ul>
+            <div class="d-flex align-items-center">
+                <!-- <span class="navbar-text me-3">
+                    <i class="fas fa-user-circle fa-lg"></i>
+                </span> -->
+                <a href="https://0x0800.github.io/2048-CUPCAKES/">
+                    <img src="/Users/ninatvo/Desktop/CSCI3308/lab-3-gui-development-ninatvo/submission/resources/img/miffy.png" alt="Miffy Navbar Icon" class="nav-icon">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 p-4 custom-container">
+        <h1 class="text-center pink-text">My Projects</h1>
+
+        <!-- Bootstrap Carousel -->
+        <div id="projectCarousel" class="carousel slide">
+            <div class="carousel-inner">
+
+                <!-- Project 1 -->
+                <div class="carousel-item active">
+                    <img src="/Users/ninatvo/Desktop/CSCI3308/lab-3-gui-development-ninatvo/submission/resources/img/mancala.png" class="d-block w-100" alt="Project 1">
+                    <div class="carousel-caption d-md-block">
+                        <h5>CSCI 3202 Intro to AI Mancala Game</h5>
+                        <p>Intro to AI project coded in Python where the user plays Mancala with a Mini-Max and Alpha-Beta AI player.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="carousel-item">
+                    <img src="/Users/ninatvo/Desktop/CSCI3308/lab-3-gui-development-ninatvo/submission/resources/img/figma.png" class="d-block w-100" alt="Project 2">
+                    <div class="carousel-caption d-md-block">
+                        <h5>CSCI 3002 Human Computer Interaction Figma Project</h5>
+                        <p>Human Computer Interaction prototype designed in Figma that provides CU Boulder students clear navigation throughout the campus.</p>
+                     </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="carousel-item">
+                    <img src="/Users/ninatvo/Desktop/CSCI3308/lab-3-gui-development-ninatvo/submission/resources/img/datasci.png" class="d-block w-100" alt="Project 3">
+                    <div class="carousel-caption d-md-block">
+                        <h5>CSCI 3022 Data Science Project</h5>
+                        <p>Data Science project to determine whether there is a trend that overestimates lower priced houses and underestimates higher priced houses. My model uses data from Cook County Housing, in which the features that had the highest correlation to Sale Price were modified in order to decrease the Root Mean Square Deviation (RMSE). Using both training and validation RMSE's and residual plots.</p>
+                       </div>
+                </div>
+
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+
+    <footer class="text-center mt-5 p-3 bg-light">
+        <p>Connect with me: </p>
+        <a href="https://www.linkedin.com/in/ninatvo/" target="_blank"><i class="fab fa-linkedin fa-lg mx-2"></i></a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
