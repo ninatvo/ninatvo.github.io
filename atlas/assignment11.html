@@ -1,0 +1,212 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>2020 Proposal Form</title>
+    <link rel="stylesheet" href="../submission/resources/css/asn11_styles.css"/>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <form action="" method="post" id="proposal2020">
+
+            <div id="formcol1">
+
+
+                <h1>2020 Proposal Form</h1>
+                <fieldset>
+                    <legend>Speaker Info</legend>
+                    <p>All fields marked with an asterisk (*) are required.</p>
+                    <ul>
+                        <li>
+                            <label for="firstName1">First Name:</label>
+                            <input id="firstName1" name="firstName1" type="text" class="reqfield"
+                                title="Required field" />
+                        </li>
+                        <li><label for="lastName1">Last Name:</label>
+                            <input id="lastName1" name="lastName1" type="text" class="reqfield"
+                                title="Required field" />
+                        </li>
+                        <li>
+                            <label for="speakerTitle1">Title:</label>
+                            <input id="speakerTitle1" name="speakerTitle1" type="text" maxlength="48" />
+                        </li>
+                        <li>
+                            <label for="company1">Company:</label>
+                            <input id="company1" name="company1" type="text" />
+                        </li>
+                        <li>
+                            <label for="department1">Department:</label>
+                            <input id="department1" name="department1" type="text" />
+                        </li>
+                        <li>
+                            <label for="address1">Address:</label>
+                            <input id="address1" name="address1" type="text" class="reqfield"/>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div> 
+            <div id="multchoice">
+
+                <fieldset>
+                    <legend>Type of Presentation</legend>
+                    <p>
+                        <span><input value="1" id="TypeofPres_lec" name="p-type" type="radio" />
+                        <label for="TypeofPres_lec">Lecture</label></span>
+                        <span><input value="2" id="TypeofPres_lab" name="p-type" type="radio" />
+                        <label for="TypeofPres_lab">Computer Lab</label></span>
+                    </p>
+                </fieldset>
+                <p class="submit-button">
+                    <input type="submit" value="Submit your proposal" />
+                </p>
+            </div> 
+
+
+        </form>
+
+
+    </div> 
+</body>
+
+</html> -->
+
+<!-- <body>
+    <div id="wrapper">
+        <form action="" method="post" id="proposal2020">
+            <div id="formcol1">
+                <h1>2020 Proposal Form</h1>
+                <p>All fields marked with an asterisk (*) are required.</p>
+                <fieldset>
+                    <legend>Speaker Info</legend>
+                    <ul>
+                        <li>
+                            <label for="firstName1">First Name*:</label>
+                            <input id="firstName1" name="firstName1" type="text" class="reqfield" title="Required field" />
+                        </li>
+                        <li>
+                            <label for="lastName1">Last Name*:</label>
+                            <input id="lastName1" name="lastName1" type="text" class="reqfield" title="Required field" />
+                        </li>
+                        <li>
+                            <label for="speakerTitle1">Title:</label>
+                            <input id="speakerTitle1" name="speakerTitle1" type="text" maxlength="48" />
+                        </li>
+                        <li>
+                            <label for="company1">Company:</label>
+                            <input id="company1" name="company1" type="text" />
+                        </li>
+                        <li>
+                            <label for="department1">Department:</label>
+                            <input id="department1" name="department1" type="text" />
+                        </li>
+                        <li>
+                            <label for="address1">Address*:</label>
+                            <input id="address1" name="address1" type="text" class="reqfield" />
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div id="multchoice">
+                <fieldset>
+                    <legend>Type of Presentation</legend>
+                    <div class="radio-group">
+                        <span><input value="1" id="TypeofPres_lec" name="p-type" type="radio" />
+                            <label for="TypeofPres_lec">Lecture</label></span>
+                        <span><input value="2" id="TypeofPres_lab" name="p-type" type="radio" />
+                            <label for="TypeofPres_lab">Computer Lab</label></span>
+                    </div>
+                </fieldset>
+                <p class="submit-button">
+                    <input type="submit" value="Submit your proposal" />
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>2020 Proposal Form</title>
+    <link rel="stylesheet" href="../submission/resources/css/asn11_styles.css"/>
+
+    <!-- allow html5 to run in older versions of IE -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <form action="" method="post" id="proposal2020">
+
+            <div id="formcol1">
+                <h1>2020 Proposal Form</h1>
+                <p>All fields marked with an asterisk (<span class="red">*</span>) are required.</p>
+
+                <fieldset>
+                    <legend>Speaker Info</legend>
+                    <ul>
+                        <li>
+                            <label for="firstName1">First Name:<span class="red">*</span></label>
+                            <input id="firstName1" name="firstName1" type="text" class="reqfield" title="Required field" />
+                        </li>
+                        <li>
+                            <label for="lastName1">Last Name:<span class="red">*</span></label>
+                            <input id="lastName1" name="lastName1" type="text" class="reqfield" title="Required field" />
+                        </li>
+                        <li>
+                            <label for="speakerTitle1">Title:</label>
+                            <input id="speakerTitle1" name="speakerTitle1" type="text" maxlength="48" />
+                        </li>
+                        <li>
+                            <label for="company1">Company:</label>
+                            <input id="company1" name="company1" type="text" />
+                        </li>
+                        <li>
+                            <label for="department1">Department:</label>
+                            <input id="department1" name="department1" type="text" />
+                        </li>
+                        <li>
+                            <label for="address1">Address:<span class="red">*</span></label>
+                            <input id="address1" name="address1" type="text" class="reqfield" />
+                        </li>
+                    </ul>
+                </fieldset>
+            </div> <!-- end of formcol1 div -->
+
+            <div id="multchoice">
+                <fieldset>
+                    <legend>Type of Presentation</legend>
+                    <p>
+                        <span class="radio-group">
+                            <input value="1" id="TypeofPres_lec" name="p-type" type="radio" />
+                            <label for="TypeofPres_lec">Lecture</label>
+                        </span>
+                        <span class="radio-group">
+                            <input value="2" id="TypeofPres_lab" name="p-type" type="radio" />
+                            <label for="TypeofPres_lab">Computer Lab</label>
+                        </span>
+                    </p>
+                </fieldset>
+
+                <p class="submit-button">
+                    <input type="submit" value="Submit your proposal" />
+                </p>
+            </div> <!-- end of multchoice div -->
+
+        </form>
+    </div> <!-- end wrapper div -->
+
+</body>
+
+</html>
